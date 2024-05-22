@@ -32,5 +32,18 @@ function findlargest(first,second){
     }
 }
 const largest = findlargest(335, 241);
-console.log('largst is',largest)
+// console.log('largst is',largest)
 
+function  findlargest(first, second, third){
+    if(first > second){
+        return first;
+    }
+    else if(second >  third){
+        return second;
+    }
+    else{
+        return third;
+    }
+}
+const lagest =  findlargest(5,10,50);
+console.log('largest is',lagest)
