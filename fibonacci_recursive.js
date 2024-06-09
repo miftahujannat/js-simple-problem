@@ -33,4 +33,4 @@ function fibonacciseries(n){
     return fibo;
 }
 const fiboseries = fibonacciseries(7);
-console.log(fiboseries);
+console.log("Shimanto 09876",fiboseries);
